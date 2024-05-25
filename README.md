@@ -1,2 +1,0 @@
-# Somu
-Design webpage
