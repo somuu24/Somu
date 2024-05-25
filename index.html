@@ -1,18 +1,65 @@
 <!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/w3css/3/w3.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-around;
+            justify-content: space-between;
+        }
+        .logo{
+            flex-shrink: 1;
+            border: 2px solid rebeccapurple;
+        }
+        .navbar{
+            width: 70%;
+        }
+        .navbar ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-around;
+            justify-content: space-between;
+            border: 2px solid rebeccapurple;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 30px;
+        }
+        .navbar li:hover{
+            color: azure;
+        }
+        .login{
+            flex-shrink: 1;
+            border: 2px solid rebeccapurple;
+        }
+    </style>
+</head>
 <body>
-
-<!-- Navigation -->
-<nav class="w3-bar w3-black">
-  <a href="#home" class="w3-button w3-bar-item">Home</a>
-  <a href="#band" class="w3-button w3-bar-item">Band</a>
-  <a href="#tour" class="w3-button w3-bar-item">Tour</a>
-  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
-</nav>
-
+<header>
+    <div class="logo">
+        <img src="logo.png" width="90px">
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a href="logo.png">Home</a></li>
+            <li><a href="logo.png">About</a></li>
+            <li><a href="logo.png">Contact</a></li>
+        </ul>
+    </div>
+    <div class="login">
+        <button>Login</button>
+        <button>Signup</button>
+    </header>
+    <body class="content">
+        <div>
+            <p>this is a body</p>
+        </div>
+    </body>
 </body>
 </html>
-
